@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ServiciosActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="FireWorld Seguridad"
+            android:textSize="50dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginLeft="25dp"
+            android:fontFamily="@font/shermandisplay"
+            android:textColor="@color/red"
+            android:drawableLeft="@drawable/fire_extinguisher"/>
+
+        <TextView
+            android:id="@+id/ProductosText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:fontFamily="@font/coolveticarg"
+            android:text="Servicios"
+            android:textSize="50sp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="15dp"
+            android:layout_gravity="center_horizontal"
+            android:paddingTop="20dp">
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="110dp"
+                android:layout_marginLeft="25dp"
+                android:src="@drawable/regarga"
+                android:layout_gravity="center_vertical"/>
+
+            <TextView
+                android:id="@+id/recarga"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="25dp"
+                android:layout_gravity="center_vertical"
+                android:fontFamily="@font/coolveticarg"
+                android:text="Recarga de Extintores"
+                android:textSize="33sp" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="15dp"
+            android:paddingTop="15dp">
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="110dp"
+                android:layout_marginLeft="25dp"
+                android:src="@drawable/herramienta"
+                android:layout_gravity="center_vertical"/>
+
+            <TextView
+                android:id="@+id/herramienta"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="25dp"
+                android:layout_gravity="center_vertical"
+                android:fontFamily="@font/coolveticarg"
+                android:text="Mantenimiento de Extintores"
+                android:textSize="25sp" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="15dp"
+            android:paddingTop="15dp">
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="110dp"
+                android:layout_marginLeft="25dp"
+                android:src="@drawable/bolsa"
+                android:layout_gravity="center_vertical"/>
+
+            <TextView
+                android:id="@+id/venta"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="25dp"
+                android:layout_gravity="center_vertical"
+                android:fontFamily="@font/coolveticarg"
+                android:text="Venta de Equipos"
+                android:textSize="33sp" />
+
+        </LinearLayout>
+        <Button
+            android:id="@+id/booton"
+            android:layout_width="match_parent"
+            style="@style/MenuButton"
+            android:onClick="onButtonClick"
+            android:text="@string/VideoLlamadaRegresar"
+            android:drawableLeft="@drawable/regresar_24"/>
+
+        <Switch
+            android:id="@+id/language_switch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:text="Español / English"
+            android:layout_marginRight="25dp"
+            android:layout_marginLeft="25dp"/>
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ExtintoresPQS">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="FireWorld Seguridad"
+            android:textSize="50dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginLeft="25dp"
+            android:fontFamily="@font/shermandisplay"
+            android:textColor="@color/red"
+            android:drawableLeft="@drawable/fire_extinguisher"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp">
+
+            <TextView
+                android:id="@+id/PolvoTituloTexto"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/coolveticarg"
+                android:text="@string/Catalogo"
+                android:textSize="35sp" />
+        </LinearLayout>
+        <SearchView
+            android:id="@+id/txtBuscar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginBottom="10dp"
+            android:queryHint="Busca aqui..."
+            android:iconifiedByDefault="false"
+            android:background="@drawable/search_view_bg"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginRight="25dp"
+                android:layout_marginLeft="25dp">
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="Todos"
+                    android:id="@+id/allFilter"
+                    android:backgroundTint="@color/red_light"
+                    android:textColor="@color/black"
+                    android:onClick="allFilterTapped"/>
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="Polvo Químico Seco"
+                    android:id="@+id/pqsFilter"
+                    android:backgroundTint="@color/red_light"
+                    android:textColor="@color/black"
+                    android:onClick="pqsFilterTapped"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginRight="25dp"
+                android:layout_marginLeft="25dp">
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="Dióxido de Carbono"
+                    android:id="@+id/co2Filter"
+                    android:backgroundTint="@color/red_light"
+                    android:textColor="@color/black"
+                    android:onClick="co2FilterTapped"/>
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="Acetato de Potasio"
+                    android:id="@+id/adpFilter"
+                    android:backgroundTint="@color/red_light"
+                    android:textColor="@color/black"
+                    android:onClick="adpFilterTapped"/>
+
+            </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <Button
+                android:id="@+id/agregarProductoButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:text="Agregar Producto" />
+        </LinearLayout>
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ListView
+                    android:id="@+id/extListView"
+                    android:layout_width="match_parent"
+                    android:layout_height="197dp" />
+                <Button
+                    android:id="@+id/btnManuales"
+                    android:layout_width="match_parent"
+                    style="@style/MenuButton"
+                    android:onClick="onButtonClick"
+                    android:text="Manuales"/>
+                <Button
+                    android:id="@+id/PQS_BotonRegresar"
+                    android:layout_width="match_parent"
+                    style="@style/MenuButton"
+                    android:onClick="onButtonClick"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/VideoLlamadaRegresar"
+                    android:drawableLeft="@drawable/regresar_24" />
+                <Switch
+                    android:id="@+id/language_switch"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end"
+                    android:text="Español / English"
+                    android:layout_marginRight="25dp"
+                    android:layout_marginBottom="15dp"
+                    android:layout_marginLeft="25dp"/>
+
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

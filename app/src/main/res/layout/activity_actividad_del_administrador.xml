@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PantallaPrincipal">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="FireWorld Seguridad"
+            android:textSize="50dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginLeft="25dp"
+            android:fontFamily="@font/shermandisplay"
+            android:textColor="@color/red"
+            android:drawableLeft="@drawable/fire_extinguisher"/>
+
+        <TextView
+            android:id="@+id/TituloMenuAdmin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/coolveticarg"
+            android:text="@string/TituloAdminEnMenu"
+            android:textSize="50sp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center_horizontal"
+            android:paddingTop="30dp">
+
+            <Button
+                android:id="@+id/botonServiciosAdmin"
+                style="@style/Button"
+                android:layout_marginRight="10dp"
+                android:drawableLeft="@drawable/list_alt_24"
+                android:text="@string/btnServicios" />
+
+            <Button
+                android:id="@+id/botonProductosAdmin"
+                style="@style/Button"
+                android:drawableLeft="@drawable/storefront_24"
+                android:text="@string/BotonProductos" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center_horizontal"
+            android:paddingTop="10dp">
+
+            <Button
+                android:id="@+id/botonContactoAdmin"
+                style="@style/Button"
+                android:layout_marginRight="10dp"
+                android:drawableLeft="@drawable/contacts_24"
+
+                android:text="@string/btnContacto" />
+
+            <Button
+                android:id="@+id/botonPerfilAdmin"
+                style="@style/Button"
+                android:drawableLeft="@drawable/person_24"
+                android:text="@string/btnPerfil" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center_horizontal"
+            android:paddingTop="10dp">
+
+            <Button
+                android:id="@+id/botonChatAdmin"
+                style="@style/Button"
+                android:layout_marginRight="10dp"
+                android:drawableLeft="@drawable/chat_24"
+                android:text="@string/BotonChat" />
+
+            <Button
+                android:id="@+id/botonVideollamadaAdmin"
+                style="@style/Button"
+                android:drawableLeft="@drawable/videocam_24"
+                android:text="@string/BotonVideoLlamada"
+                android:textSize="13sp" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/botonCerrarSesionAdmin"
+            style="@style/MenuButton"
+            android:layout_width="match_parent"
+            android:drawableLeft="@drawable/logout_24"
+            android:text="@string/BotonRegresar" />
+
+
+        <Switch
+            android:id="@+id/language_switch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_marginTop="30dp"
+            android:text="Español / English" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

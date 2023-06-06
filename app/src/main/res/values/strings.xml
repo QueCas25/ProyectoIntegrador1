@@ -1,0 +1,146 @@
+<resources>
+    <string name="app_name">Proyecto DISMOV</string>
+    <string name="InicioSesionString">Tienda de Extintores</string>
+
+
+    /**
+    Texto y botones Inicio de Sesion
+    */
+    <string name="QueSomos">Tienda de Extintores</string>
+    <string name="SubTituloDelLogin">Ingresa tu correo y contraseña</string>
+    <string name="emaillogin">Correo electrónico</string>
+    <string name="ContraLogin">Contraseña</string>
+    <string name="InicioSesion">Iniciar Sesión</string>
+    <string name="AunNoTeR">¿Aun no te registras? ¡Hazlo aqui!</string>
+
+    /**
+    Texto y botones Registro
+    */
+    <string name="TituloDeRegistro">Registro</string>
+    <string name="SubTemaDeRegistro">Completa este formulario</string>
+    <string name="UsuaRe">Escribe tu nombre de usuario</string>
+    <string name="CorreoReg">Escribe tu correo electronico</string>
+    <string name="ContraRe">Escribe tu contraseña</string>
+    <string name="ConfRe">Confirma tu contraseña</string>
+    <string name="BotonRe">Registrarse</string>
+    <string name="IniciaRe">¿Ya tienes una cuenta? ¡Inicia sesion aqui!</string>
+
+    <string name="TituloRe">Registro de usuario</string>
+    <string name="TituloLog">Inicio de Sesión</string>
+    <string name="VideoLlamadaTitulo">Videollamada</string>
+
+    /**
+    Texto y botones Videollamada
+    */
+    <string name="VideoLlamadaCuerpo">Introduce el codigo de llamada asignado por un administrador para entrar a una reunion y tratar el problema en cuestion.</string>
+    <string name="VideoCodigo">Ingrese el nombre/codigo de la reunión</string>
+    <string name="VideoLlamadaBoton">Unirse</string>
+    <string name="VideoLlamadaRegresar">Regresar</string>
+
+
+    /**
+    FALTA SABER DE DONDE SON O SI SE USAN
+
+    <string name="BotonCarrito">ADMINISTRADOR</string>
+
+    <string name="BotonChat">Chat</string>
+    <string name="TituloVideoLlamada">Fire World Seguridad-Administrador</string>
+
+
+    <string name="ChatUsuario">Chat</string>
+    <string name="RegresarUsuario">Cerrar Sesión</string>
+    <string name="TituloUsuario">Fire World Seguridad</string>
+    <string name="Titulo">FireWorld Seguridad</string>
+
+    <string name="CarritoUsuario">Usuario</string>
+    <string name="ProductosUsuario">Productos</string>
+    <string name="VideollamadaUsuario">Videollamada</string>
+    */
+
+    /**
+    Botones de Menus de Usuario y Administradores
+    */
+    <string name="BotonProductos">Productos</string>
+    <string name="BotonVideoLlamada">Videollamada</string>
+    <string name="btnServicios">Servicios</string>
+    <string name="btnContacto">Contacto</string>
+    <string name="btnPerfil">Perfil</string>
+    <string name="BotonRegresar">Cerrar Sesión</string>
+    <string name="TituloUsuarioEnMenu">Usuario</string>
+    <string name="TituloAdminEnMenu">Administrador</string>
+    <string name="Contacto">Nuestros medios de contacto</string>
+    <string name="Datos">Luis Andres Leyva Villa</string>
+    <string name="Datos2">81 1020 1176</string>
+    <string name="Datos3">leyva_hs@outlook.com</string>
+    <string name="Datos4">Facebook: FireWorldSeguridad</string>
+    <string name="Datos5">Instagram: fwseguridad</string>
+    <string name="Regresar">Regresar</string>
+    <string name="ContactoTitulo">Contacto</string>
+    <string name="TituloProductos">Productos</string>
+    <string name="PolvoSecoBtn">Extintor Polvo Químico Seco</string>
+    <string name="DioxidoDeCarbonoBtn">Extintor Dióxido de Carbono</string>
+    <string name="AcetatoBtn">Extintor Acetato de Potasio</string>
+    <string name="AcetatoTitulo">Extintor Acetato de Potasio</string>
+    <string name="DioxidoTitulo">Extintor Dióxido de Carbono</string>
+    <string name="PolvoTitulo">Extintor Polvo Químico Seco</string>
+    <string name="btnSend">Enviar</string>
+    <string name="placeholderMsg">mensaje</string>
+    <string name="FinishCall">Llamada finalizada</string>
+    <string name="ContactosUsuarios">Contactos</string>
+    <string name="Catalogo">Catálogo de Extintores</string>
+
+    <string name="extintorName">#1  Cap: 2.5 Kg</string>
+    <string name="extintorType">PQS</string>
+    <string name="extintorPrice">$2,000</string>
+    <string name="extintorStock">Cantidad: 50</string>
+
+    <string-array name="ext_id_txt">
+        <item>#1</item>
+        <item>#2</item>
+        <item>#3</item>
+        <item>#4</item>
+        <item>#5</item>
+        <item>#6</item>
+        <item>#7</item>
+        <item>#8</item>
+        <item>#9</item>
+        <item>#10</item>
+    </string-array>
+    <string-array name="ext_cap_txt">
+        <item>#1 PQS 2.5 Kg</item>
+        <item>#2 CO2 2.5 Kg</item>
+        <item>#3 PQS 4.5 Kg</item>
+        <item>#4 CO2 4.5 Kg</item>
+        <item>#5 PQS 6 Kg</item>
+        <item>#6 CO2 6.8 Kg</item>
+        <item>#7 PQS 9 Kg</item>
+        <item>#8 CO2 9 Kg</item>
+        <item>#9 ADP 9.3 Kg</item>
+        <item>#10 PQS 35 Kg</item>
+    </string-array>
+    <string-array name="ext_typ_txt">
+        <item>PQS</item>
+        <item>CO2</item>
+        <item>PQS</item>
+        <item>CO2</item>
+        <item>PQS</item>
+        <item>CO2</item>
+        <item>PQS</item>
+        <item>CO2</item>
+        <item>ADP</item>
+        <item>PQS</item>
+    </string-array>
+    <string-array name="ext_prc_txt">
+        <item>$2,000</item>
+        <item>$2,000</item>
+        <item>$3,000</item>
+        <item>$3,000</item>
+        <item>$5,000</item>
+        <item>$5,000</item>
+        <item>$6,000</item>
+        <item>$6,000</item>
+        <item>$4,000</item>
+        <item>$18,000</item>
+    </string-array>
+
+</resources>
