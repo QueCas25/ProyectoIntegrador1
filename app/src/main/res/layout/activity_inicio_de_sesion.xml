@@ -4,12 +4,15 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".InicioDeSesion">
+    tools:context=".InicioDeSesion"
+    android:background="@color/orange"
+    >
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        app:layout_constraintStart_toStartOf="parent">
 
         <TextView
             android:id="@+id/TituloLogin"
@@ -52,16 +55,18 @@
 
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/email_field"
-                android:layout_width="match_parent"
+                android:layout_width="391dp"
                 android:layout_height="50dp"
+                android:layout_marginLeft="25dp"
                 android:layout_marginTop="40dp"
                 android:layout_marginRight="25dp"
-                android:layout_marginLeft="25dp"
-                android:hint="@string/emaillogin"
-                android:padding="15dp"
-                android:textSize="15dp"
                 android:background="@drawable/edittext_custom"
-                android:inputType="textEmailAddress" />
+                android:hint="@string/emaillogin"
+                android:inputType="textEmailAddress"
+                android:padding="15dp"
+                android:textSize="15dp" />
+
+
         </com.google.android.material.textfield.TextInputLayout>
 
         <com.google.android.material.textfield.TextInputLayout
@@ -97,20 +102,20 @@
             android:id="@+id/textoBajo"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/AunNoTeR"
-            android:textSize="18sp"
+            android:layout_marginLeft="25dp"
             android:layout_marginTop="20dp"
             android:layout_marginRight="25dp"
-            android:layout_marginLeft="25dp"/>
+            android:text="@string/AunNoTeR"
+            android:textSize="18sp" />
 
         <Switch
             android:id="@+id/language_switch"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="end"
-            android:text="Español / English"
+            android:layout_marginLeft="25dp"
             android:layout_marginRight="25dp"
-            android:layout_marginLeft="25dp"/>
+            android:text="Español / English" />
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

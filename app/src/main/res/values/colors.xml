@@ -10,7 +10,8 @@
     <color name="red">#D32F2F</color>
     <color name="red_r">#D32F2F</color>
     <color name="red_light">#FFCDD2</color>
-    <color name="orange">#FF5722</color>
+    <color name="orange">#FDC249</color>
+    <color name="orange2">#F4710C</color>
     <color name="gray">#F5F5F5</color>
     <color name="yellow">#FFC107</color>
 </resources>
