@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/orange">
+
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="287dp"
+        android:layout_height="58dp"
+        android:text="Iniciar sesión"
+        android:textSize="18dp"
+        tools:layout_editor_absoluteX="62dp"
+        tools:layout_editor_absoluteY="554dp" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="310dp"
+        android:layout_height="214dp"
+        app:srcCompat="@drawable/Imagen1"
+        tools:layout_editor_absoluteX="50dp"
+        tools:layout_editor_absoluteY="62dp" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="334dp"
+        android:layout_height="612dp"
+        app:srcCompat="@drawable/Imagen11"
+        tools:layout_editor_absoluteX="38dp"
+        tools:layout_editor_absoluteY="165dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="235dp"
+        android:layout_height="40dp"
+        android:backgroundTint="@color/gray"
+        android:text="Contraseña"
+        android:textColor="@color/black"
+        tools:layout_editor_absoluteX="88dp"
+        tools:layout_editor_absoluteY="490dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="235dp"
+        android:layout_height="40dp"
+        android:backgroundTint="@color/gray"
+        android:text="Correo"
+        android:textColor="@color/black"
+        tools:layout_editor_absoluteX="87dp"
+        tools:layout_editor_absoluteY="440dp" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="235dp"
+        android:layout_height="40dp"
+        android:backgroundTint="@color/gray"
+        android:text="Nombre"
+        android:textColor="@color/black"
+        tools:layout_editor_absoluteX="87dp"
+        tools:layout_editor_absoluteY="385dp" />
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="235dp"
+        android:layout_height="40dp"
+        android:backgroundTint="@color/white"
+        android:text="Inicia sesión"
+        android:textColor="@color/black"
+        tools:layout_editor_absoluteX="87dp"
+        tools:layout_editor_absoluteY="325dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
