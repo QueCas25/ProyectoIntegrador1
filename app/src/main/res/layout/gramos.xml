@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/orange">
+
+
+    <Button
+        android:id="@+id/button"
+        style="@style/Button"
+        android:layout_width="223dp"
+        android:layout_height="103dp"
+        android:layout_marginStart="158dp"
+        android:layout_marginEnd="159dp"
+        android:layout_marginBottom="416dp"
+        android:background="@color/white"
+        android:backgroundTint="@color/gray"
+        android:textColor="@color/black"
+        android:text="Gramos Recomendado si cuentas con balanza para alimentos."
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="104dp"
+        android:layout_height="58dp"
+        android:layout_marginTop="24dp"
+        app:circularflow_viewCenter="@string/BotonChat"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.977"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@mipmap/img" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="71dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="56dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/Imagen6"
+        tools:layout_editor_absoluteX="170dp" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="50dp"
+        android:layout_height="68dp"
+        app:srcCompat="@drawable/Imagen7"
+        tools:layout_editor_absoluteX="28dp"
+        tools:layout_editor_absoluteY="24dp" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="170dp"
+        android:layout_height="55dp"
+        android:text="No, gracias"
+        tools:layout_editor_absoluteX="120dp"
+        tools:layout_editor_absoluteY="349dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
