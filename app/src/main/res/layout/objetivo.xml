@@ -9,28 +9,30 @@
 
     <Button
         android:id="@+id/button"
-        android:layout_width="308dp"
-        android:layout_height="194dp"
+        style="@style/Button"
+        android:layout_width="223dp"
+        android:layout_height="103dp"
         android:layout_marginStart="158dp"
         android:layout_marginEnd="159dp"
-        android:layout_marginBottom="308dp"
-        android:background="@color/orange2"
-        android:backgroundTint="#FB7131"
-        android:drawableLeft="@drawable/imagen5"
-        android:text="Perder grasa"
+        android:layout_marginBottom="416dp"
+        android:background="@color/white"
+        android:backgroundTint="@color/gray"
+        android:textColor="@color/black"
+        android:text="Perder grasa Maximizar la perdida de grasa y conservar tu masa muscular"
+
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.448"
+        app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent" />
 
     <ImageView
         android:id="@+id/imageView8"
         android:layout_width="104dp"
         android:layout_height="58dp"
-        android:layout_marginTop="44dp"
+        android:layout_marginTop="24dp"
         app:circularflow_viewCenter="@string/BotonChat"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.902"
+        app:layout_constraintHorizontal_bias="0.977"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@mipmap/img" />
@@ -46,5 +48,23 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.757" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="71dp"
+        android:layout_height="75dp"
+        app:layout_constraintBottom_toTopOf="@+id/textoBajo"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.794"
+        app:srcCompat="@drawable/Imagen6"
+        tools:layout_editor_absoluteX="170dp" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="50dp"
+        android:layout_height="68dp"
+        app:srcCompat="@drawable/Imagen7"
+        tools:layout_editor_absoluteX="28dp"
+        tools:layout_editor_absoluteY="24dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
