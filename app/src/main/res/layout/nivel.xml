@@ -8,22 +8,12 @@
 
 
     <Button
-        android:id="@+id/button"
-        style="@style/Button"
-        android:layout_width="223dp"
-        android:layout_height="103dp"
-        android:layout_marginStart="158dp"
-        android:layout_marginEnd="159dp"
-        android:layout_marginBottom="416dp"
-        android:background="@color/white"
-        android:backgroundTint="@color/gray"
-        android:textColor="@color/black"
-        android:text="Perder grasa Maximizar la perdida de grasa y conservar tu masa muscular"
-
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.496"
-        app:layout_constraintStart_toStartOf="parent" />
+        android:id="@+id/button5"
+        android:layout_width="340dp"
+        android:layout_height="60dp"
+        android:text="Sedentario"
+        tools:layout_editor_absoluteX="35dp"
+        tools:layout_editor_absoluteY="185dp" />
 
     <ImageView
         android:id="@+id/imageView8"
@@ -37,25 +27,12 @@
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@mipmap/img" />
 
-    <TextView
-        android:id="@+id/textoBajo"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="¿Cual es tu objetivo?"
-        android:textSize="18sp"
-        app:layout_constraintBottom_toTopOf="@+id/button"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.757" />
-
     <ImageView
         android:id="@+id/imageView3"
         android:layout_width="71dp"
         android:layout_height="75dp"
-        app:layout_constraintBottom_toTopOf="@+id/textoBajo"
+        android:layout_marginTop="68dp"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.794"
         app:srcCompat="@drawable/Imagen6"
         tools:layout_editor_absoluteX="170dp" />
 
@@ -66,5 +43,36 @@
         app:srcCompat="@drawable/Imagen7"
         tools:layout_editor_absoluteX="28dp"
         tools:layout_editor_absoluteY="24dp" />
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="340dp"
+        android:layout_height="60dp"
+        android:text="Ligero"
+        tools:layout_editor_absoluteX="35dp"
+        tools:layout_editor_absoluteY="260dp" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="340dp"
+        android:layout_height="60dp"
+        android:text="Moderado"
+        tools:layout_editor_absoluteX="35dp"
+        tools:layout_editor_absoluteY="335dp" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="340dp"
+        android:layout_height="60dp"
+        android:text="Alto"
+        tools:layout_editor_absoluteX="35dp"
+        tools:layout_editor_absoluteY="410dp" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="340dp"
+        android:layout_height="60dp"
+        android:text="Atleta profesional"
+        tools:layout_editor_absoluteX="35dp"
+        tools:layout_editor_absoluteY="485dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -18,7 +18,7 @@
         android:background="@color/white"
         android:backgroundTint="@color/gray"
         android:textColor="@color/black"
-        android:text="Perder grasa Maximizar la perdida de grasa y conservar tu masa muscular"
+        android:text="Gramos Recomendado si cuentas con balanza para alimentos."
 
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -37,25 +37,12 @@
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@mipmap/img" />
 
-    <TextView
-        android:id="@+id/textoBajo"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="¿Cual es tu objetivo?"
-        android:textSize="18sp"
-        app:layout_constraintBottom_toTopOf="@+id/button"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.757" />
-
     <ImageView
         android:id="@+id/imageView3"
         android:layout_width="71dp"
         android:layout_height="75dp"
-        app:layout_constraintBottom_toTopOf="@+id/textoBajo"
+        android:layout_marginTop="56dp"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.794"
         app:srcCompat="@drawable/Imagen6"
         tools:layout_editor_absoluteX="170dp" />
 
@@ -66,5 +53,13 @@
         app:srcCompat="@drawable/Imagen7"
         tools:layout_editor_absoluteX="28dp"
         tools:layout_editor_absoluteY="24dp" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="170dp"
+        android:layout_height="55dp"
+        android:text="No, gracias"
+        tools:layout_editor_absoluteX="120dp"
+        tools:layout_editor_absoluteY="349dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
